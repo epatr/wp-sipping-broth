@@ -2,14 +2,14 @@
 
 module.exports = {
 	theme: {
-		slug: 'wprig',
-		name: 'WP Rig',
-		author: 'Morten Rand-Hendriksen'
+		slug: 'sipping-broth',
+		name: 'Sipping Broth',
+		author: 'Eric Patrick'
 	},
 	dev: {
 		browserSync: {
 			live: true,
-			proxyURL: 'wprig.test:8888',
+			proxyURL: 'wprig.local',
 			bypassPort: '8181'
 		},
 		browserslist: [ // See https://github.com/browserslist/browserslist
